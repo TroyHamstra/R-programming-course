@@ -1,0 +1,84 @@
+Week 4 Assignment Quiz Answers
+
+Question 1:
+What is the result of the following code?
+
+best("SC", "heart attack")
+
+        ## Answer:
+        MUSC MEDICAL CENTER
+
+Question 2:
+What is the result of the following code?
+
+best("NY", "pneumonia")
+
+        ## Answer:
+        MAIMONIDES MEDICAL CENTER
+
+Question 3:
+What is the result of the following code?
+
+best("AK", "pneumonia")
+
+        ## Answer:
+        YUKON KUSKOKWIM DELTA REG HOSPITAL
+
+Question 4:
+What is the result of the following code?
+
+rankhospital("NC", "heart attack", "worst")
+
+        ## Answer:
+        WAYNE MEMORIAL HOSPITAL
+
+Question 5:
+What is the result of the following code?
+
+rankhospital("WA", "heart attack", 7)
+
+        ## Answer:
+        YAKIMA VALLEY MEMORIAL HOSPITAL
+
+Question 6:
+What is the result of the following code?
+
+rankhospital("TX", "pneumonia", 10)
+
+        ## Answer:
+        SETON SMITHVILLE REGIONAL HOSPITAL
+
+Question 7:
+What is the result of the following code?
+
+rankhospital("NY", "heart attack", 7)
+
+        ## Answer:
+        BELLEVUE HOSPITAL CENTER
+
+Question 8:
+What is the result of the following code?
+
+r <- rankall("heart attack", 4)
+as.character(subset(r, state == "HI")$hospital)
+
+        ## Answer:
+        CASTLE MEDICAL CENTER
+
+Question 9:
+What is the result of the following code?
+
+r <- rankall("pneumonia", "worst")
+as.character(subset(r, state == "NJ")$hospital)
+
+        ## Answer:
+        UNIV MEDICAL CENTER OF PRINCETON AT PLAINSBORO  ** not an option on course site ** 
+
+Question 10:
+What is the result of the following code?
+
+r <- rankall("heart failure", 10)
+as.character(subset(r, state == "NV")$hospital)
+
+        ## Answer:
+        CENTENNIAL HILLS HOSPITAL MEDICAL CENTER  ** not an option on course site **
